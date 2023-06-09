@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+body{
+    background-color: rgb(243, 236, 236);
+}
+
+.header {
+ 
+   margin-top: -50px;
+   margin-left: 50px;
+    position:absolute
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.main-content{
+    background-color: rgb(255, 245, 245);
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    
+}
+
+.left-section{
+/* grid-column: span 2; */
+/* height: 100%; */
+background-color: rgb(91, 72, 105);
+}
+.left-container{
+    padding: 30px;
+    
+}
+.profile{
+    width: 100%;
+    border-bottom: 1px solid rgb(208, 230, 132);
+}
+.profile img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid rgb(208, 230, 132);
+    object-fit: cover;
+    transform:rotate(310deg)
+}
+ul{
+    list-style-type: none;
+}
+.name{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.career{
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(209, 202, 202);
+    letter-spacing: 1px;
+}
+.right-section{
+background-color: rgb(219, 226, 226);
+
+}
+.contact-info{
+    color: rgb(240, 231, 250);
+    letter-spacing: 1px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills-section{
+    color: rgb(253, 253, 253);
+}
+.wraper{
+
+padding: 30px;
+}
+.wraper h1{
+    
+    text-align: center;
+    text-transform: uppercase;
+  
+}
+.right-section__node{
+    
+}
+.wraper li{
+    font-size: 20px ;
+    border-bottom: 2px solid rgb(129, 163, 7);
+}
+
+.link-to{
+    background-color: rgb(178, 180, 178);
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.link-to:hover{
+    background-color: rgb(146, 147, 146);
+    padding: 2px;
+}
+ .projects{
+    padding-bottom: 60px;
+    display:  flex;
+    justify-content: space-between;
+    flex-wrap: wap;
+
+ }
+.project{
+background-color: gray;
+border-radius: 10px;
+width: 200px;
+height: 400px ;
+color: white;
+padding: 5px;
+position: relative;
+}
+
+
+.project>img{
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+
+    object-fit: cover;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.project>a:hover{
+color: greenyellow;
+}
+
+.projests__items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project__code{
+position: absolute ;
+bottom: 2px;
+right: 2px;
+
+}
+
+.project__code:hover{
+color: rgb(223, 217, 217);
+    
+    }
