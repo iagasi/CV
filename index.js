@@ -22,7 +22,7 @@ const myProjects = [
     code: "https://github.com/iagasi/Portfolio/tree/main/StoreFilterPanel",
     name: " React App <Store> ",
     url:"https://filter-d4a2b.web.app/",
-    description: "",},
+    description: " Filtering and Search products and add to basket ",},
 
 
   {
@@ -30,21 +30,21 @@ const myProjects = [
     code: "https://github.com/iagasi/Portfolio/tree/main/Travel-Dom-Api",
     name: " Travel ",
     url:"https://jadoos.web.app/",
-    description: " Dom Api",
+    description: " Dom Api.<br/> Modals and Sliders",
   },
   {
     img: "./zoo1.png",
     url:"https://iagasi.github.io/Portfolio/zoo/",
     code: "https://github.com/iagasi/Portfolio/tree/main/online-zoo",
     name: "Zoo  ",
-    description: "Zoo Main Page",
+    description: "Zoo Main Page <br/> Modals and Sliders",
   },
   {
     img: "./zoo2.png",
     url:"https://iagasi.github.io/Portfolio/zoo/donate.html",
     code: "https://github.com/iagasi/Portfolio/tree/main/online-zoo",
     name: " Zoo  ",
-    description: " Zoo Donation",
+    description: " Zoo Donation  <br/> Simple interaction ",
   },
 
   
@@ -56,7 +56,7 @@ proj2023=[
         code: "https://github.com/iagasi/doodlejump",
         url:"https://iagasi.github.io/doodlejump/",
         name: " Game DoodleJump",
-        description: "",
+        description: "Jump and Shoot enemies",
       },
 
       {
