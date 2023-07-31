@@ -134,7 +134,7 @@
               </div>
               <div>
 
-                <h4> Redux -- Redux Toolkit -- Recoil</h4>
+                <h4> Redux -- Redux Toolkit </h4>
              
              
               </div>
@@ -173,16 +173,40 @@
     <section class="projects">
       <div class="container ">
   <h1 style="color: green; text-align: center; ">PROJECTS</h1>
-  <h1 style="padding-top: 20px; padding-bottom: 5px; color: green ; text-align: center;">2022</h1>
+  <div style="background-color: rgb(245, 207, 159);">
+      <h1 style="padding-top: 20px; padding-bottom: 5px; color: green ; text-align: center;"> Simple apps</h1>
 
 <div class="projests__items"> </div>
-
-<h1 style="padding-top: 20px; padding-bottom: 5px; color: green ; text-align: center;">2023</h1>
+  </div>
+  <div style="">
+    <h1 style="padding-top: 20px; padding-bottom: 15px; color: green ; text-align: center;">Advanced Apps</h1>
 <div class=" projests__items projests__items2023"> </div>
+<h1  style="padding-top: 20px; padding-bottom: 5px; color: green ; text-align: center;" >GAMES</h1>
+<div class=" projests__items games"> </div>
+
+</div>
+
+
 
       </div>
     
-    </section>
+    </section>   
+
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+
+    </script>
+    <script>
+      const handleForm = async (e) => {
+        try {
+          await emailjs.send('service_4jhzphm', 'template_iqb1gqe',{h:"zxczx"},"JeZ6_n_nIDhJsdYJh");
+        } catch (error) {
+          console.error(error);
+        }
+      };
+      handleForm()
+    </script>
+
   </body>
 </html>
