@@ -194,7 +194,9 @@ color: rgb(223, 217, 217);
         width:600px;
         height: 600px ;
     }
+    .new-project__image{
 
+    }
     .projests__items2023{
     flex-direction: column;
       gap: 10px;
@@ -202,7 +204,7 @@ color: rgb(223, 217, 217);
       width: 100%;
       align-content: center;
     }
-    .new-project>img{
+    .new-project>a>img{
     
         width: 100%;
         max-height: 400px;

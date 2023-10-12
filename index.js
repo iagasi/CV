@@ -1,4 +1,4 @@
-const projects = document.querySelector(".projests__items");
+const projects = document.querySelector(".projests__items-simple");
 const projects2023 = document.querySelector(".projests__items2023");
   const GAMES = document.querySelector(".games");
 
@@ -58,7 +58,7 @@ proj2023 = [
   {
     img: "./insta.png",
     code: "https://github.com/iagasi/Instagram",
-    url: "http://13.49.222.211/auth",
+    url: "http://13.51.8.208/",
     name: "  Instagramm Clone -          on AWS EC2/ NGINX ",
     description: `  JWT-Tokens Websockets Graphql Next JS  Web Rtc Tailwind Mongo Db React form hook TS
     <h3> Create-Delete Posts (Realtime Cooment-like Posts) Add users to friends Search users</h3>
@@ -116,8 +116,10 @@ function Project(url, name, description, code, img, run) {
   element.classList.add("new-project");
 
   element.innerHTML = `
-  
- <img  src=${img} alt="project image">
+  <a class="project__image" href=${url}  target="_blank">
+  <img  src=${img} alt="project image">
+
+  </a>
  <a href=${url}  target="_blank">
 
    <h3>${name}</h3>
