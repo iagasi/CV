@@ -47,7 +47,7 @@ background-color: rgb(91, 72, 105);
         border-radius: 50%;
         border: 5px solid rgb(208, 230, 132);
         object-fit: cover;
-        transform:rotate(30deg)
+        /* transform:rotate(30deg) */
     }
     .main-content{
         display: block;
@@ -76,7 +76,7 @@ background-color: rgb(91, 72, 105);
     border-radius: 50%;
     border: 5px solid rgb(208, 230, 132);
     object-fit: cover;
-    transform:rotate(310deg)
+    /* transform:rotate(310deg) */
 }
 ul{
     list-style-type: none;
@@ -214,4 +214,8 @@ color: rgb(223, 217, 217);
 
     .games{
         background-color: rgb(183, 133, 229);
+    }
+
+    .java{
+        color: brown;
     }

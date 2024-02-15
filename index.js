@@ -69,7 +69,7 @@ proj2023 = [
   {
     img: "./mes.png",
     code: "https://github.com/iagasi/Instagram",
-    url: "http://13.49.222.211/auth",
+    url: "http://13.51.8.208/auth",
     name: "  Messenger - <small>the part of Instagramm app</small>",
     description: ` Websockets Graphql Subscriptions Next JS  Web Rtc Tailwind Mongo Db  
     <h3>Features: VideoCalls(webRtc)  and Realtime Messages ,</h3>
@@ -135,9 +135,9 @@ ${
  `;
   return element;
 }
-const html = myProjects.map(({ url, name, description, code, img }) => {
-  projects.appendChild(project(url, name, description, code, img));
-});
+// const html = myProjects.map(({ url, name, description, code, img }) => {
+//   projects.appendChild(project(url, name, description, code, img));
+// });
 
 
 proj2023.map(({ url, name, description, code, img },i) => {
@@ -156,4 +156,3 @@ game.map(({ url, name, description, code, img },i) => {
 });
 
 
-console.log(html);
